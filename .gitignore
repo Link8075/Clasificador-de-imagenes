@@ -1,0 +1,14 @@
+# Ignorar entorno virtual
+.venv/
+venv/
+__pycache__/
+
+# Ignorar datos descargados (cualquiera puede bajarlos con tu script)
+data/
+
+# Ignorar archivos de sistema
+.DS_Store
+
+# Opcional: Si tu modelo pesa más de 100MB, GitHub no dejará subirlo.
+# Si pesa menos (probablemente sí), puedes borrar la siguiente línea:
+# models/*.pth
